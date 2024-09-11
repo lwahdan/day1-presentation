@@ -1,0 +1,35 @@
+#heading:hover {
+    background-color: aquamarine;
+}
+#p{
+    display: none;
+}
+
+#obj{
+    background-color: aqua;
+}
+
+#edu{
+    background-color: aliceblue;
+}
+
+#cer{
+    background-color: beige;
+}
+
+#sk{
+    background-color: bisque;
+}
+
+#hob{
+    background-color: blanchedalmond;
+}
+
+img{
+    width:100px;
+    height:100px;
+    float:right;
+    
+
+
+}
