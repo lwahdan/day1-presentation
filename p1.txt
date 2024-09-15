@@ -1,3 +1,0 @@
-git clone(uploads the files in the github repositories to the folder)
-git add . (adds all the files in the folder to the github)
-git status (make sure the files were added successfully)

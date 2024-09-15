@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 1px solid black;
+            width: 400px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <form>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"> <br> <br>
+
+        <p style="display: inline;">Gender</p>
+        <input type="radio" id="ma" name="gender" value="Male">
+        <label for="ma">Male</label>
+        <input type="radio" id="fe" name="gender" value="female">
+        <label for="fe">female</label> <br><br>
+        
+        <label for="con">Country:</label>
+        <select id="con" name="con">
+            <option value="jordan">jordan</option>
+            <option value="lebanon">lebanon</option>
+            <option value="palestine">palestine</option>
+            <option value="syria">syria</option>
+        </select> <br><br>
+
+        <label for="msg">Message:</label><br>
+        <textarea id="msg" name="msg" style="height: 100px; width: 200px;"></textarea> <br><br>
+
+        <input type="checkbox" id="sub" name="sub" value="subscribe">
+        <label for="sub">Subscribe?</label> <br><br>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

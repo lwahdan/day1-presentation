@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .triangle-right {
+            width: 0;
+            height: 0;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 10px solid black;
+        }
+        th,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the little taco shop</h1>
+    <ul>
+        <li><a href="#about">About LTS</a></li>
+        <li><a href="#menu">Our Menu</a></li>
+        <li><a>Store Hours</a></li>
+        <li><a>Contact Us</a></li>
+    </ul>
+    <img src="/taco.jpg">
+    <hr>
+
+    <h1 id="about">About LTS</h1><br>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis quaerat doloribus at ipsa ipsam culpa cum, recusandae veritatis. Odit nostrum provident eum quia accusamus amet reiciendis fugiat. Deserunt, repellat ipsa?</p>
+
+    <h2>Taco Trivia</h2>
+    <div class="triangle-right"></div>
+    <p>when did tacos first appear?</p><hr>
+
+    <h1>Our Menu</h1>
+    <table id="menu">
+        <caption style="border:1px solid black">Our Tacos</caption>
+
+        <tr>
+        <th>Tacos</th>
+        <th>Qty</th>
+        <th>Price</th>
+        </tr>
+
+        <tr>
+            <th rowspan="3">Crunchy</th>
+            <td>1</td>
+            <td>&dollar;1.50</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>&dollar;2.50</td> 
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>&dollar;3.50</td> 
+        </tr>
+        <tr>
+            <th rowspan="3">Soft</th>
+            <td>1</td>
+            <td>&dollar;2.00</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>&dollar;3.50</td> 
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>&dollar;4.50</td> 
+        </tr>
+        <tr><td colspan="3">Chips & Salsa &dollar;2</td></tr>
+    </table>
+
+    <a href="#top">Bach to top</a><hr>
+    <small>Copyright &copy; the little taco shop</small>
+    
+    
+</body>
+</html>

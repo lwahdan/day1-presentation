@@ -1,0 +1,29 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"')
+*{
+
+  font-family: "Work Sans", "sans-serif";
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.btn-primary{
+    background-color: #588d11;
+    border-radius: 2px;
+}
+
+.nav-items{
+    display: flex;
+    color: ;
+    font-size:;
+    line-height: ;
+    list-style:none ;
+}
+
+.nav-link{
+
+}
+
+.btn{
+    
+}

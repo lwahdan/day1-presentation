@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 2px solid black;
+        }
+        th,td{
+            border: 1px solid black; 
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr><th colspan="2">Registration Form</th></tr>
+        <tr>
+            <td><label for="name">Enter Name</label></td>
+            <td><input type="text" id="name" name="name"></td>
+        </tr>
+        <tr>
+            <td><label for="pass"> Password</label></td>
+            <td><input type="password" id="pass" name="pass"></td>
+        </tr>
+        <tr>
+            <td><label for="add"> Address</label></td>
+            <td><textarea id="add" name="add" style="width: 200px; height: 100px;"></textarea></td>
+        </tr>
+        <tr>
+            <td>Select Game</td>
+            <td>
+                <input type="checkbox" id="hoc" name="hoc" value="hockey">
+                <label for="hoc">Hockey</label><br>
+                <input type="checkbox" id="fot" name="fot" value="football">
+                <label for="fot">football</label><br>
+                <input type="checkbox" id="bas" name="bas" value="basketball">
+                <label for="bas">basketball</label><br>
+                <input type="checkbox" id="cri" name="cri" value="ceicket">
+                <label for="cri">cricket</label><br>
+                <input type="checkbox" id="vol" name="vol" value="vollyball"> 
+                <label for="vol">vollyball</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" id="ma" name="gen" value="male">
+                <label for="ma">Male</label>
+                <input type="radio" id="fe" name="gen" value="female">
+                <label for="fe">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="age">select ur age</label></td>
+            <td>
+                <select id="age" name="age">
+                    <option value="under 18">under 18</option>
+                    <option value="19-30">19-30</option>
+                    <option value="above 30">above 30</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="photo">select photo</label></td>
+            <td><input type="file" id="photo" name="photo"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="button" style="height: 40px; width: 130px;">click me</button>
+                <input type="reset" value="reset" style="height: 40px; width: 130px;"><br>
+                <input type="submit" value="submit form" style="height: 40px; width: 130px;">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

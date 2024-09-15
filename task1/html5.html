@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+    
+ /* ss container */
+.ss {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+
+.ss .note {
+  visibility: hidden;
+  width: 100px;
+  background-color: wheat;
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position of the note */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+
+
+}
+
+/* Show the note text when you mouse hover the ss container */
+.ss:hover .note {
+  visibility: visible;
+}
+        
+    </style>
+
+</head>
+<body>
+     <div class="ss">About Coding Academy
+     <span class="note">Orange</span> 
+     </div> 
+        
+      
+    <p> Lorem, ipsum dolor sit <mark>amet consectetur adipisicing elit.</mark> Itaque nemo quam facilis, 
+        dolore culpa <mark>cum at autemmolestiae! Aliquid atque earum ipsum</mark> voluptas
+         commodi hic porro pariatur molestias quos non! Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+         Molestiae optio, nostrum voluptatum, sequi officiis eaque dolorum vero modi vel <br>
+        inventore odio atque" aspernatur laudantium recusandae cupiditate amet totam eveniet omnis."</p>
+    <!-- i built webpage structure-->
+
+</body>
+</html>
